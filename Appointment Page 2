@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>
+			Form In HTML
+		</title>
+	</head>
+	<body bgcolor="#4545D8" text="white">
+	<div id="hd">
+		<h1 align="center">BOOK APPOINTMENT</h1>
+		</div>
+		<div id="content1"
+		<form>
+		 <center>
+			<table>
+				<div id="content2">
+				<h1 align="center">THANK YOU</h1>
+				<h4 align="center">YOUR APPOINTMENT HAS BEEN SUCCESSFULLY BOOKED...</h4>
+					
+				</div>				
+			</table>
+			</center>
+		</form>
+		</div>
+		<style>
+		#content1{
+			width:40%;
+			height:400px;
+			background-color:#271F37;
+	        border-radius:30px;
+			margin-left:400px;
+			
+		}
+		#content2{
+			margin-top:30px;
+			padding:20px;
+			}
+		#hd{ 
+			 background-color:black;
+		     float:center;
+			 width=50px;
+			 
+		}
+		
+		</style>
+	</body>
+</html>
