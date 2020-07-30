@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>
+			Form In HTML
+		</title>
+	</head>
+	<body bgcolor="#4545D8" text="white">
+	<div id="hd">
+		<h1 align="center">BOOK APPOINTMENT</h1>
+		</div>
+		<div id="content1"
+		<form>
+		 <center>
+			<table>
+				<div id="content2">
+					<tr><td>Patient Name : </td><td><input type="text"></td></tr>
+					<tr><td>Age : </td><td><input type="text"></td></tr>
+					<tr><td>Gender :</td><td><input type="radio"name="gen">Male<input type="radio" name="gen">Female<input type="radio" name="gen">other</td></tr>
+					<tr><td>Blood Group : </td><td><input type="text"></td></tr>
+					<tr><td>Contact No : </td><td><input type="text"></td></tr>
+					<tr><td>Email :</td><td><input type="email"></td></tr>
+					<tr><td>Date of Birth :</td><td><input type="date" name=""></td></tr>
+					<tr><td>Address :</td><td><textarea></textarea></td></tr>
+					<tr><td>Preferred Date for Appointment :</td><td><input type="date" name=""></td></tr>
+					<tr><td>Preferred Time :</td><td><input type="time" name=""></td></tr>
+					<tr><td>Department : </td><td><input type="text"></td></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					<tr></tr>
+					</div>
+					<tr align="center"><td colspan="2"><a href="entry1.php"><Input type="submit" value="Submit"> </a><button>Reset</button></td></tr>
+								
+			</table>
+			</center>
+		</form>
+		</div>
+		<style>
+		#content1{
+			width:40%;
+			height:400px;
+			background-color:#271F37;
+	        border-radius:30px;
+			margin-left:400px;
+			
+		}
+		#content2{
+			margin-top:30px;
+			padding:20px;
+			}
+		#hd{ 
+			 background-color:black;
+		     float:center;
+			 width=50px;
+			 
+		}
+		
+		</style>
+	</body>
+</html>
